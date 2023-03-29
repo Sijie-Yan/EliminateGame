@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33ab3e63701739e4286d4afc71f4814b, type: 3}
+  m_Name: Quest0
+  m_EditorClassIdentifier: 
+  QuestFloor: 0
+  QuestStartSpriteNum: 8
+  QuestCombatSpriteNum: 2
+  NextQuestChooseNum: 2
+  NextRatioArray:
+  - {fileID: 11400000, guid: 875ae41319be41541aecb68c3a6ecfb9, type: 2}
+  - {fileID: 11400000, guid: 507581e2c441e7c4885b33ca0b97b169, type: 2}
+  GridLine: 7
+  GridColumn: 7
+  QuestStartEmptyGridNum: 14
+  QuestElementLoops:
+  - {fileID: 11400000, guid: 531ee56431fddcf4c8d98ae2128656c1, type: 2}
